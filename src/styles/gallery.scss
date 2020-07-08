@@ -1,0 +1,23 @@
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+@media (min-width: 400px) {
+    .gallery{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 700px) {
+    .gallery{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 900px) {
+    .gallery{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
