@@ -9,9 +9,9 @@ import PostList from "../components/postList";
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <h1>Welcome</h1>
+    <p>Welcome to my little corner of the world wide web dedicated to sharing my passion for the night sky, and tracking my progress as a hobby astronomer.</p>
+    <h2>Recent Posts</h2>
     <PostList />
   </Layout>
 )

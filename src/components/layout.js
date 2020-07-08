@@ -24,15 +24,19 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <div className="page-layout">
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div className="wrapper">
-        <main>{children}</main>
-        <footer>
+      <main>
+        <div className="wrapper">
+          {children}
+          </div>
+      </main>
+      <footer>
+        <div class="wrapper">
           © {new Date().getFullYear()} Ashley Johns
-        </footer>
-      </div>
-    </>
+        </div>
+      </footer>
+    </div>
   )
 }
 

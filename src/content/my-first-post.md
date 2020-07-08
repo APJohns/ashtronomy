@@ -1,9 +1,9 @@
 ---
 title: My First Post
-date: 2019-07-10
+date: 2020-07-07
 path: /my-first-post
 ---
 
 This is my first Gatsby post written in Markdown!
 
-![Alt text here](../images/gatsby-astronaut.png)
+![The Moon](../images/gallery/first-moon.jpeg)
