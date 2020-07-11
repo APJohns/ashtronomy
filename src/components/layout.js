@@ -26,13 +26,11 @@ const Layout = ({ children }) => {
   return (
     <div className="page-layout">
       <Header siteTitle={data.site.siteMetadata.title} />
-      <main>
-        <div className="wrapper">
-          {children}
-          </div>
-      </main>
+      <div className="wrapper body-content">
+        {children}
+      </div>
       <footer>
-        <div class="wrapper">
+        <div className="wrapper">
           © {new Date().getFullYear()} Ashley Johns
         </div>
       </footer>

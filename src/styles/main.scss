@@ -1,3 +1,20 @@
+@import './reset.scss';
 @import './variables.scss';
 @import './gallery.scss';
 @import './layout.scss';
+@import './index.scss';
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}

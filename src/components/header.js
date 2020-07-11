@@ -12,6 +12,7 @@ const Header = ({ siteTitle }) => (
           </Link>
         </div>
         <div className="secondary-section">
+          <Link to="/calculations" activeClassName='active' className="nav-link">Calculations</Link>
           <Link to="/gallery" activeClassName='active' className="nav-link">Gallery</Link>
         </div>
       </div>

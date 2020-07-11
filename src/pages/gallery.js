@@ -8,8 +8,10 @@ import ImageList from "../components/imageList"
 const Gallery = () => (
   <Layout>
     <SEO title="Gallery" />
-    <h1>Gallery</h1>
-    <ImageList />
+    <main>
+        <h1>Gallery</h1>
+        <ImageList />
+    </main>
   </Layout>
 );
 
